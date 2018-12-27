@@ -24,7 +24,7 @@
         },
 
         created() {
-            this.socket.emit('JOIN_CHANEL', 'UC-lHJZR3Gqxm24_Vd_AJ5Yw')
+            this.socket.emit('JOIN_CHANEL', this.$route.query.id)
         }
     }
 </script>

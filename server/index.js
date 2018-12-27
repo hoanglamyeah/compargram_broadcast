@@ -5,6 +5,7 @@ const app = express()
 const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
 const cron = require("node-cron");
+var CronJobManager = require('cron-job-manager')
 var request = require('request');
 
 app.set('port', port)
@@ -29,16 +30,43 @@ async function start() {
     // Listen the server
     let server = app.listen(port, host)
     const io = require('socket.io')(server);
+
+    var manager = new CronJobManager();
+
     io.on('connection', function (socket) {
+        let temp = ''
+
         socket.on('JOIN_CHANEL', function (data) {
-            cron.schedule("*/2 * * * * *", function () {
-                let url = 'https://www.googleapis.com/youtube/v3/channels?part=statistics&id=' + data + '&key=AIzaSyBU_oWEIULi3-n96vWKETYCMsldYDAlz2M'
-                request(url, function (error, response, body) {
-                    socket.emit('ON_TEST', JSON.parse(body))
-                })
-            });
+            temp = data
+            socket.join(data);
+            if (!manager.exists(data)) {
+                manager.add(data, "*/2 * * * * *", () => {
+                    let url = 'https://www.googleapis.com/youtube/v3/channels?part=statistics&id=' + data + '&key=AIzaSyBU_oWEIULi3-n96vWKETYCMsldYDAlz2M'
+                    request(url, function (error, response, body) {
+                        io.to(data).emit('ON_TEST', JSON.parse(body));
+                    })
+                });
+                manager.start(data);
+            }
         })
+
+        socket.on('disconnect', function() {
+            // if (Object.keys(socket.adapter.rooms[temp]).length === 0) {
+            //     if (manager.exists(temp)) {
+            //         manager.stop(temp)
+            //         manager.deleteJob(temp)
+            //     }
+            // }
+            if (io.sockets.adapter.sids[temp] === undefined) {
+                if (manager.exists(temp)) {
+                    manager.stop(temp)
+                    manager.deleteJob(temp)
+                }
+            }
+            console.log(manager.listCrons());
+        });
     });
+
     consola.ready({
         message: `Server listening on http://${host}:${port}`,
         badge: true

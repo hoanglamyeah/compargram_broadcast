@@ -1,0 +1,238 @@
+[
+    {
+        "id": 8,
+        "name": "295 Đê La Thành",
+        "address": "P. Ô Chợ Dừa, Q. Đống Đa",
+        "phone": "0868.507.310",
+        "backup": [
+            {
+                "id": 39,
+                "name": "151 Cầu Giấy, Q. CG",
+                "address": "P. Quan Hoa, Q. Cầu Giấy",
+                "phone": "0868.507.326"
+            },
+            {
+                "id": 2,
+                "name": "346 Khâm Thiên",
+                "address": "P. Thổ Quan, Q. Đống Đa",
+                "phone": "0868.507.300"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "175 Phùng Hưng",
+        "address": "P. Phúc La, Q. Hà Đông",
+        "phone": "0868.507.328",
+        "backup": [
+            {
+                "id": 20,
+                "name": "382 Nguyễn Trãi",
+                "address": "P. TX Trung, Q. Thanh Xuân",
+                "phone": "0868.507.314"
+            },
+            {
+                "id": 5,
+                "name": "702 Đường Láng",
+                "address": "P. Láng Thượng, Q. Đống Đa",
+                "phone": "0868.507.306"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "111 Lạc Long Quân",
+        "address": "P. Nghĩa Đô, Q. Cầu Giấy",
+        "phone": "0868.507.380",
+        "backup": [
+            {
+                "id": 10,
+                "name": "36 Trần Quốc Hoàn",
+                "address": "P. Dịch Vọng Hậu, Q. Cầu Giấy",
+                "phone": "0868.507.312"
+            },
+            {
+                "id": 39,
+                "name": "151 Cầu Giấy, Q. CG",
+                "address": "P. Quan Hoa, Q. Cầu Giấy",
+                "phone": "0868.507.326"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "767 Lạc Long Quân",
+        "address": "Phường 8, Q.  Tân Bình",
+        "phone": "0868.507.332",
+        "backup": [
+            {
+                "id": 21,
+                "name": "758 Âu Cơ",
+                "address": "Phường 14, Q.  Tân Bình",
+                "phone": "0868.507.346"
+            },
+            {
+                "id": 23,
+                "name": "130 Tân Sơn Nhì",
+                "address": "P. Tân Sơn Nhì, Q.  Tân Phú",
+                "phone": "0868.507.350"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "909 Hậu Giang",
+        "address": "Phường 11, Quận 6",
+        "phone": "0868.507.348",
+        "backup": [
+            {
+                "id": 40,
+                "name": "206 Hậu Giang",
+                "address": "Phường 9, Quận 6",
+                "phone": "0868.507.370"
+            },
+            {
+                "id": 32,
+                "name": "245 Lê Đại Hành",
+                "address": "Phường 15, Quận 11",
+                "phone": "0868.507.358"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "25 Tôn Đản",
+        "address": "Phường 13, Quận 4",
+        "phone": "0868.507.378",
+        "backup": [
+            {
+                "id": 30,
+                "name": "330 Nguyễn Thị Thập",
+                "address": "P. Tân Quy, Quận 7",
+                "phone": "0868.507.354"
+            },
+            {
+                "id": 51,
+                "name": "420 Huỳnh Tấn Phát",
+                "address": "P. Phú thuận, Quận 7",
+                "phone": "0868.507.338"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "449 Bạch Đằng",
+        "address": "Phường 14, Q.  Bình Thạnh",
+        "phone": "0981.630.330",
+        "backup": [
+            {
+                "id": 35,
+                "name": "323 Xô Viết Nghệ Tĩnh",
+                "address": "Phường 25, Q.  Bình Thạnh",
+                "phone": "0868.507.362"
+            },
+            {
+                "id": 18,
+                "name": "4 Trần Quang Khải",
+                "address": "P. Tân Định, Quận 1",
+                "phone": "0868.507.342"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "1180 Quang Trung",
+        "address": "Phường 8, Q.  Gò Vấp",
+        "phone": "0868.507.953",
+        "backup": [
+            {
+                "id": 17,
+                "name": "60 Lê Văn Thọ",
+                "address": "Phường 11, Q.  Gò Vấp",
+                "phone": "0868.507.340"
+            },
+            {
+                "id": 46,
+                "name": "483 Thống Nhất",
+                "address": "Phường 16, Q.  Gò Vấp",
+                "phone": "0868.507.382"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "451 Phạm Văn Thuận",
+        "address": "P. Tam Hiệp, TP. Biên Hòa",
+        "phone": "0868.507.390",
+        "backup": [
+            {
+                "id": 42,
+                "name": "1361 Phạm Văn Thuận",
+                "address": "P. Thống Nhất, TP. Biên Hòa",
+                "phone": "0868.507.372"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name": "149 Nguyễn Duy Trinh",
+        "address": "P. Bình Trưng Tây, Quận 2",
+        "phone": "0981.630.330",
+        "backup": [
+            {
+                "id": 44,
+                "name": "103 Trần Não",
+                "address": "P. Bình An, Quận 2",
+                "phone": "0868.507.376"
+            },
+            {
+                "id": 33,
+                "name": "356 Đỗ Xuân Hợp",
+                "address": "P. Phước Long A, Quận 9",
+                "phone": "0868.507.360"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "8 Nguyễn Ảnh Thủ",
+        "address": "P. Hiệp Thành, Quận 12",
+        "phone": "0868.507.308",
+        "backup": [
+            {
+                "id": 53,
+                "name": "36 Nguyễn Ảnh Thủ",
+                "address": "P. Trung Mỹ Tây, Quận 12",
+                "phone": "0868.507.394"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "17 Mậu Thân",
+        "address": "P. Hưng lợi, Quận Ninh Kiều",
+        "phone": "0868.507.935",
+        "backup": [
+            {
+                "id": 54,
+                "name": "205 Đường 30/4",
+                "address": "P. Xuân Khánh, Quận Ninh Kiều",
+                "phone": "0868.507.392"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name": "02 Quang Trung",
+        "address": "TT. Hóc Môn, H. Hóc Môn",
+        "phone": "0981.630.330",
+        "backup": [
+            {
+                "id": 53,
+                "name": "36 Nguyễn Ảnh Thủ",
+                "address": "P. Trung Mỹ Tây, Quận 12",
+                "phone": "0868.507.394"
+            }
+        ]
+    }
+]
